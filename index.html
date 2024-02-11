@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Captcha Challenge</title>
+</head>
+<body>
+    <div id="captcha-container">
+        <img src="bg.png" alt="Technology">
+        <div class="captcha">
+            <canvas id="captcha" width="200" height=""40></canvas>
+            <button id="reload-captcha">Reload</button>
+            <div class="user">
+                <input type="text"  id="captcha-input" placeholder="Enter CAPTCHA">
+                <button id="check-captcha">Check</button>
+            </div>
+            <p id="captcha-status">Status : IDLE</p>
+        </div>
+    </div>
+    
+</body>
+<script src="./script.js"></script>
+</html>
